@@ -67,11 +67,11 @@ extra:
   homepage: https://github.com/morington/google-search-guide
   social:
     - icon: fontawesome/brands/telegram
-      link: https://t.me/morington
-      name: "Adam Morington"
+      link: https://t.me/dev_survival
+      name: "Тяжелая жизнь разработчика.."
     - icon: fontawesome/brands/github
-      link: https://github.com/morington/google-search-guide
-      name: GitHub
+      link: https://github.com/morington
+      name: "GitHub - morington"
 
 nav:
   - 'Введение': index.md
