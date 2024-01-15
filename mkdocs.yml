@@ -77,8 +77,9 @@ extra:
 
 plugins:
   - social:
+      cards_layout: custom
       cards_layout_options:
-        logo: assets/social.png
+        background_image: layouts/social.png
 
 nav:
   - 'Введение': index.md
