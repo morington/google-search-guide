@@ -11,7 +11,7 @@ copyright: |
   Copyright &copy; 2024 <a href="https://github.com/morington" target="_blank" rel="noopener">Adam Morington</a>
 
 theme:
-  favicon: assets/icons8-google-100-favicon.png
+  favicon: assets/guide.png
   logo: assets/icons8-google-100.png
   name: material
   features:
