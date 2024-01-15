@@ -2,7 +2,6 @@ site_name: Руководство по поиску в Google
 site_description: Расширенное руководство для всех по технологии поиска в Google
 site_author: morington
 site_url: https://morington.github.io/google-search-guide
-site_dir: docs
 
 repo_name: morington/google-search-guide
 repo_url: https://github.com/morington/google-search-guide
