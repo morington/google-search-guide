@@ -76,10 +76,7 @@ extra:
       name: "GitHub - morington"
 
 plugins:
-  - social:
-      cards_layout: custom
-      cards_layout_options:
-        background_image: layouts/social.png
+  - social
 
 nav:
   - 'Введение': index.md
