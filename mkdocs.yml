@@ -58,6 +58,8 @@ markdown_extensions:
   - pymdownx.mark
   - attr_list
   - def_list
+  - toc:
+      permalink: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -83,4 +85,4 @@ nav:
   - 'Безопасность в поиске': security_in_search.md
   - 'Google Dorks': google_dorks.md
   # DEBUG
-  - 'Тестовая страница': test_page.md
+  # - 'Тестовая страница': test_page.md
