@@ -75,6 +75,11 @@ extra:
       link: https://github.com/morington
       name: "GitHub - morington"
 
+plugins:
+  - social:
+      cards_layout_options:
+        logo: assets/social.png
+
 nav:
   - 'Введение': index.md
   - 'Основы поиска в Google': google_search_basics.md
