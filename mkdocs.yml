@@ -5,7 +5,6 @@ site_url: https://morington.github.io/google-search-guide
 
 repo_name: morington/google-search-guide
 repo_url: https://github.com/morington/google-search-guide
-edit_uri: ""
 
 copyright: |
   Copyright &copy; 2024 <a href="https://github.com/morington" target="_blank" rel="noopener">Adam Morington</a>
@@ -76,7 +75,7 @@ extra:
       name: "GitHub - morington"
 
 plugins:
-  #- social
+  - social
 
 nav:
   - 'Введение': index.md
