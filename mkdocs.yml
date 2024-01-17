@@ -76,7 +76,7 @@ extra:
       name: "GitHub - morington"
 
 plugins:
-  - social
+  #- social
 
 nav:
   - 'Введение': index.md
