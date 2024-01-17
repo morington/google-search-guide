@@ -4,7 +4,7 @@ title: Основы поиска в Google
 
 ## Интерфейс Google {: id="google-interface" }
 
-![google_interface.png](assets%2Fimages%2Fgoogle_interface.png)
+![google_interface.png](assets%2Fimages%2Fgoogle_search_basics%2Fgoogle_interface.png)
 
 Интерфейс Google обладает следующими элементами:
 
@@ -24,7 +24,7 @@ title: Основы поиска в Google
     напрямую, они просто пишут интересующее слово или текст в строке поиска, а Google исправляет их ошибки. Таким
     образом, поисковик становится своего рода цифровым помощником в коррекции ошибок.
 
-![duck_query_result.png](assets%2Fimages%2Fduck_query_result.png)
+![duck_query_result.png](assets%2Fimages%2Fgoogle_search_basics%2Fduck_query_result.png)
 
 Представление веб-сайтов в результатах поиска обладает следующей структурой:
 
@@ -48,7 +48,7 @@ title: Основы поиска в Google
 ознакомиться с дополнительной информацией: почему этот результат был вам показан, какие ключевые слова привели к его
 отображению.
 
-![more_information_on_request_duck.png](assets%2Fimages%2Fmore_information_on_request_duck.png)
+![more_information_on_request_duck.png](assets%2Fimages%2Fgoogle_search_basics%2Fmore_information_on_request_duck.png)
 
 Ранее, в нижней части страницы результатов, мы могли обнаружить пагинацию. Часто количество результатов превышает 
 несколько сотен миллионов, и с учетом фильтрации информации Google распределяет их по нескольким страницам. Фильтрация 
@@ -79,12 +79,12 @@ title: Основы поиска в Google
 
 Разберем небольшой пример, мы хотим приготовить утку, введем два запроса:
 
-![duck_dish_request.png](assets%2Fimages%2Fduck_dish_request.png)
+![duck_dish_request.png](assets%2Fimages%2Fgoogle_search_basics%2Fduck_dish_request.png)
 
 Да я соглашусь с вами, это очевидно. Чтобы найти рецепт блюда из утки, мы должны вписать "рецепт утки", "утка в духовке"
 или "утка под соусом". Хорошо возьмем более сложный пример, мы хотим купить ленту для упаковки нашего подарка:
 
-![multi_valued_query_option.png](assets%2Fimages%2Fmulti_valued_query_option.png)
+![multi_valued_query_option.png](assets%2Fimages%2Fgoogle_search_basics%2Fmulti_valued_query_option.png)
 
 Если вам удалось сразу правильно сформулировать запрос, как в примере корректного варианта, то поздравляю вас с отличным
 владением навыками поиска!
@@ -130,7 +130,7 @@ title: Основы поиска в Google
 преувеличивают информацию, чтобы сделать свой ресурс более релевантным, но такую практику легко распознать по отсутствию
 нужной информации на их сайте.
 
-![useless_results.png](assets%2Fimages%2Fuseless_results.png)
+![useless_results.png](assets%2Fimages%2Fgoogle_search_basics%2Fuseless_results.png)
 
 Глубокое погружение в SEO в данном контексте выходит за рамки нашего рассмотрения. Мы лишь хотим выделить классификацию 
 ключевых слов.
@@ -168,7 +168,7 @@ title: Основы поиска в Google
 При принятии решения относительно конкретного результата стоит ориентироваться как на сам сайт, так и на заголовок 
 страницы, предоставленный поисковиком.
 
-![not_a_useful_result.png](assets%2Fimages%2Fnot_a_useful_result.png)
+![not_a_useful_result.png](assets%2Fimages%2Fgoogle_search_basics%2Fnot_a_useful_result.png)
 
 В запросе "создание робота в домашних условиях" вероятно трудно найти что-то полезное на странице "33 идеи для создания 
 бизнеса на дому", если, конечно, вам в это время не пришло в голову искать способы заработка на домашнем создании 

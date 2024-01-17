@@ -10,8 +10,8 @@ copyright: |
   Copyright &copy; 2024 <a href="https://github.com/morington" target="_blank" rel="noopener">Adam Morington</a>
 
 theme:
-  favicon: assets/guide.png
-  logo: assets/icons8-google-100.png
+  favicon: assets/images/guide.png
+  logo: assets/images/icons8-google-100.png
   name: material
   features:
     # Toc
