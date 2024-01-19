@@ -81,10 +81,6 @@ nav:
   - 'Введение': index.md
   - 'Основы поиска в Google': google_search_basics.md
   - 'Операторы поиска': search_operators.md
-  - 'Расширенная фильтрация': filters.md
-  - 'Пользовательские настройки аккаунта': user_account_settings.md
-  - 'Расширенный поиск': advanced_search.md
-  - 'Безопасность в поиске': security_in_search.md
-  - 'Google Dorks': google_dorks.md
+  - 'Расширенный поиск и фильтрация': advanced_search_and_filtering.md
   # DEBUG
   # - 'Тестовая страница': test_page.md

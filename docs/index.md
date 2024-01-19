@@ -2,6 +2,8 @@
 title: Введение
 ---
 
+![google_preview.png](assets%2Fimages%2Findex%2Fgoogle_preview.png)
+
 ## Предисловие {: id="preface" }
 
 Более четверти века назад, в 1998 году, два студента Стэнфордского университета,
