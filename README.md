@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.google.com">
-    <img src="https://github.com/morington/google-search-guide/blob/main/docs/assets/guide.png" width="200" alt="Google logo">
+    <img src="https://github.com/morington/google-search-guide/blob/main/docs/assets/images/guide.png" width="200" alt="Google logo">
   </a>
 </p>
 
