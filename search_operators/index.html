@@ -1,0 +1,963 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Расширенное руководство для всех по технологии поиска в Google">
+      
+      
+        <meta name="author" content="morington">
+      
+      
+        <link rel="canonical" href="https://morington.github.io/google-search-guide/search_operators/">
+      
+      
+        <link rel="prev" href="../google_search_basics/">
+      
+      
+        <link rel="next" href="../advanced_search_and_filtering/">
+      
+      
+      <link rel="icon" href="../assets/images/guide.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
+    
+    
+      
+        <title>Операторы поиска - Руководство по поиску в Google</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Nunito";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Операторы поиска - Руководство по поиску в Google" >
+      
+        <meta  property="og:description"  content="Расширенное руководство для всех по технологии поиска в Google" >
+      
+        <meta  property="og:image"  content="https://morington.github.io/google-search-guide/assets/images/social/search_operators.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://morington.github.io/google-search-guide/search_operators/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Операторы поиска - Руководство по поиску в Google" >
+      
+        <meta  name="twitter:description"  content="Расширенное руководство для всех по технологии поиска в Google" >
+      
+        <meta  name="twitter:image"  content="https://morington.github.io/google-search-guide/assets/images/social/search_operators.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="https://github.com/morington/google-search-guide" title="Руководство по поиску в Google" class="md-header__button md-logo" aria-label="Руководство по поиску в Google" data-md-component="logo">
+      
+  <img src="../assets/images/icons8-google-100.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Руководство по поиску в Google
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Операторы поиска
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="blue"  aria-label="Переключить на тёмную тему"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Переключить на тёмную тему" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9v1Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Переключить на светлую тему"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Переключить на светлую тему" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/morington/google-search-guide" title="Перейти к репозиторию" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    morington/google-search-guide
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://github.com/morington/google-search-guide" title="Руководство по поиску в Google" class="md-nav__button md-logo" aria-label="Руководство по поиску в Google" data-md-component="logo">
+      
+  <img src="../assets/images/icons8-google-100.png" alt="logo">
+
+    </a>
+    Руководство по поиску в Google
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/morington/google-search-guide" title="Перейти к репозиторию" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    morington/google-search-guide
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Введение
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../google_search_basics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Основы поиска в Google
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Операторы поиска
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Операторы поиска
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Что такое оператор поиска?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main_operators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Основные операторы
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Основные операторы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Оператор исключения
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Оператор точного соответствия
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Оператор подстановки
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Оператор перечисления
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Расширенные операторы
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Расширенные операторы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#site" class="md-nav__link">
+    <span class="md-ellipsis">
+      site:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#related" class="md-nav__link">
+    <span class="md-ellipsis">
+      related:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#source" class="md-nav__link">
+    <span class="md-ellipsis">
+      source:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#define" class="md-nav__link">
+    <span class="md-ellipsis">
+      define:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filetype" class="md-nav__link">
+    <span class="md-ellipsis">
+      filetype:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intext" class="md-nav__link">
+    <span class="md-ellipsis">
+      intext:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intitle" class="md-nav__link">
+    <span class="md-ellipsis">
+      intitle:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inurl" class="md-nav__link">
+    <span class="md-ellipsis">
+      inurl:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    <span class="md-ellipsis">
+      Операторы или стоп-слова
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Операторы или стоп-слова">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#map" class="md-nav__link">
+    <span class="md-ellipsis">
+      map:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weather" class="md-nav__link">
+    <span class="md-ellipsis">
+      weather:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#movie" class="md-nav__link">
+    <span class="md-ellipsis">
+      movie:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      stocks:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-to" class="md-nav__link">
+    <span class="md-ellipsis">
+      in, to
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Знак валюты
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Специфичные операторы
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Специфичные операторы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cache" class="md-nav__link">
+    <span class="md-ellipsis">
+      cache:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inanchor" class="md-nav__link">
+    <span class="md-ellipsis">
+      inanchor:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Бесполезные операторы
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Бесполезные операторы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#and-or" class="md-nav__link">
+    <span class="md-ellipsis">
+      AND, OR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loc" class="md-nav__link">
+    <span class="md-ellipsis">
+      loc:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blogurl" class="md-nav__link">
+    <span class="md-ellipsis">
+      blogurl:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aroundx" class="md-nav__link">
+    <span class="md-ellipsis">
+      AROUND(X)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../advanced_search_and_filtering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Расширенный поиск и фильтрация
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Операторы поиска</h1>
+
+<h2 id="_1" id:="what_is_a_search_operator">Что такое оператор поиска?<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>Иногда мы тратим значительно больше времени на поиск, чем планировали. Это может быть вызвано множеством причин, начиная от недостаточной ясности в представлении пользователем того, что именно он ищет, и заканчивая сложностью языка и недопониманием запроса со стороны пользователя.</p>
+<p>Для того чтобы проводить поиск информации более быстро и точно, мы можем воспользоваться так называемыми операторами поиска в Google. Это специальные команды, состоящие из набора символов, которые позволяют уточнять выборку результатов по нужным критериям.</p>
+<p>Операторы могут использоваться как самостоятельно, так и в комбинации друг с другом. Таким образом, мы можем формулировать сложные запросы, которые обеспечивают более точные и релевантные результаты. Познакомившись с этими инструментами, мы открываем перед собой возможность значительно улучшить эффективность наших поисковых запросов.</p>
+<p><img alt="operations_search_example.png" src="../assets/images/search_operators/operations_search_example.png" /></p>
+<h2 id="main_operators">Основные операторы<a class="headerlink" href="#main_operators" title="Permanent link">&para;</a></h2>
+<h4 id="_2" id:="exception_operator">Оператор исключения<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h4>
+<p>Для того чтобы исключить определенное слово или термин из нашего запроса и предотвратить его связывание с результатами поиска, мы можем воспользоваться знаком минус <code>-</code>. Просто разместите его перед тем словом, которое вы желаете исключить.</p>
+<p>Приведенный в примере запрос <code>Толстой -Лев</code> иллюстрирует применение этого метода. Здесь знак минус перед словом "Лев" указывает поисковому движку исключить результаты, содержащие это конкретное слово, что позволяет более точно настроить запрос и получить более релевантные результаты.</p>
+<p><img alt="exception_statement_example.png" src="../assets/images/search_operators/exception_statement_example.png" /></p>
+<h4 id="_3" id:="exact_match_operator">Оператор точного соответствия<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h4>
+<p>Оператор точного соответствия предназначен для тщательного поиска и выделения слов или фраз, заключенных в кавычки <code>""</code>, которые обязательно должны присутствовать в результатах поиска. Этот оператор исключает использование синонимов, обеспечивая уверенность в том, что отображаемые результаты действительно соответствуют тому, что мы искали.</p>
+<p>Приведенный пример, где указана фраза <code>"Бедный Йорик! Я знал его, Горацио"</code>, является иллюстрацией использования оператора точного соответствия. В данном контексте поиск будет ориентирован исключительно на точное вхождение указанной фразы, и результаты будут содержать только те документы или тексты, в которых данная фраза представлена без изменений.</p>
+<p><img alt="exact_match_operator.png" src="../assets/images/search_operators/exact_match_operator.png" /></p>
+<h4 id="_4" id:="substitution_operator">Оператор подстановки<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h4>
+<p>Оператор подстановки, также известный как "звездочка" или "Wildcard", представляет собой особый символ <code>*</code> в поисковых запросах. Этот символ используется для замены нуля или более символов внутри слова или фразы. Оператор подстановки дает пользователям возможность проводить более гибкий и обширный поиск, учитывая различные варианты написания слов, а также неизвестные или произвольные части запроса.</p>
+<p>Этот оператор становится особенно полезным в случаях, когда пользователь помнит только часть фразы и хочет найти её целиком. Например, запрос <code>Казань брал, Астрахань брал * не брал</code> может быть использован для поиска информации о том, какие города царь брал в фильме "Иван Васильевич меняет профессию". Оператор подстановки помогает учесть возможные варианты второй части фразы, что делает поиск более эффективным и удобным.</p>
+<p><img alt="substitution_operator.png" src="../assets/images/search_operators/substitution_operator.png" /></p>
+<h4 id="_5" id:="enumeration_operator">Оператор перечисления<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h4>
+<p>Оператор перечисления <code>..</code> в поисковых запросах предоставляет возможность указывать диапазон значений, что делает поиск более точным и ограниченным определенными параметрами. Этот оператор позволяет фокусироваться на результатах, соответствующих конкретным числам или временным интервалам. При использовании <code>..</code> в поисковом запросе, система понимает, что необходимы результаты, находящиеся в пределах указанного диапазона.</p>
+<p>Например, запрос <code>Рок над Волгой 2009..2011</code> позволяет увидеть варианты результатов фестиваля "Рок над Волгой" за период с 2009 по 2011 год.</p>
+<p><img alt="enumeration_operator.png" src="../assets/images/search_operators/enumeration_operator.png" /></p>
+<h2 id="_6" id:="extended_operators">Расширенные операторы<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<div class="admonition info">
+<p class="admonition-title">Обрати внимание</p>
+<p>Расширенные операторы в поисковых запросах следуют определенной структуре: <strong>&lt;оператор&gt;:&lt;запрос&gt;</strong>. Отличительной особенностью является то, что после двоеточия пробелы не допускаются, поскольку это может привести к неработоспособности оператора. Такая строгая структура обеспечивает корректное взаимодействие с поисковой системой и позволяет ей правильно интерпретировать запрос, основываясь на конкретных правилах, установленных оператором.</p>
+<p>Примеры: <code>site:ru.wikipedia.org</code> , <code>intitle:телефон</code> , <code>allinurl:tech news robots</code></p>
+</div>
+<h4 id="site">site:<a class="headerlink" href="#site" title="Permanent link">&para;</a></h4>
+<p>Оператор <code>site:</code> в поисковых запросах предоставляет возможность точно настраивать область поиска, ограничивая результаты только определенным веб-сайтом или доменом. При включении этого оператора в запрос, поисковая система фокусируется исключительно на поиске информации на указанном вами веб-ресурсе. Это особенно удобно, когда требуется найти конкретные данные на определенном веб-сайте или желание ограничить поиск информации до определенного источника.</p>
+<p>Пример использования: <code>site:https://www.igromania.ru/ "The Witcher 3"</code>. Этот запрос приведет к отображению результатов, связанных с игрой "The Witcher 3", но только с веб-сайта www.igromania.ru.</p>
+<p><img alt="operator_site.png" src="../assets/images/search_operators/operator_site.png" /></p>
+<h4 id="related">related:<a class="headerlink" href="#related" title="Permanent link">&para;</a></h4>
+<p>Оператор <code>related:</code> в поисковых запросах является инструментом для выявления веб-сайтов, тесно связанных с указанным в запросе веб-сайтом. Путем ввода related: в запрос, вы получите перечень веб-ресурсов, которые поисковая система считает ассоциированными с указанным доменом. Этот оператор позволяет искать веб-сайты с аналогичным контентом и находить страницы, релевантные по тематике.</p>
+<p>Использование команды <code>related:</code> также удобно для выявления конкурентов в выбранной области. Однако стоит отметить, что сложно предсказать конкретные результаты из-за алгоритмов, используемых поисковиком при подборе ассоциированных сайтов.</p>
+<p>Пример использования: <code>related:https://www.thewitcher.com/us/ru/witcher3</code> приведет к выдаче результатов, содержащих информацию об игре "The Witcher 3", на веб-сайтах, которые считаются связанными с указанным доменом.</p>
+<p><img alt="operator_related.png" src="../assets/images/search_operators/operator_related.png" /></p>
+<h4 id="source">source:<a class="headerlink" href="#source" title="Permanent link">&para;</a></h4>
+<p>Оператор <code>source:</code> выступает как эффективный инструмент в поиске новостей от конкретного источника. Он позволяет пользователю тщательно калибровать запрос и получение актуальной информации из специфических новостных источников. Этот оператор предоставляет уникальную возможность пользователям указать предпочтенные источники новостей, что в свою очередь обеспечивает возможность точной фильтрации результатов поиска.</p>
+<p>Приведенный пример: <code>ton source:habr.com</code> иллюстрирует применение ограничения поиска новостей по криптовалюте TON только источниками с веб-сайта habr.com.</p>
+<p><img alt="operator_source.png" src="../assets/images/search_operators/operator_source.png" /></p>
+<h4 id="define">define:<a class="headerlink" href="#define" title="Permanent link">&para;</a></h4>
+<p>Оператор <code>define:</code> в поисковых запросах предназначен для мгновенного получения точного определения или толкования определенного термина или слова. При использовании <code>define:</code>, поисковая система выдаст пользователю четкое определение из различных источников.</p>
+<p>Пример использования: при запросе <code>define:звук</code> мы мгновенно увидим полное определение слова "звук".</p>
+<div class="admonition warning">
+<p class="admonition-title">Однако</p>
+<p><strong>следует отметить, что оператор может не всегда срабатывать.</strong></p>
+<p>Я считаю это связано с тем, что алгоритмы данного оператора могут быть несовершенными. Тем не менее, несмотря на возможные ограничения, идея использования оператора <code>define:</code> остается прекрасной.</p>
+<p>В случаях когда оператор не срабатывает, быстрее найти значение через обычный ввод термина или слова в поле запроса, как например <code>звук это</code>.</p>
+</div>
+<p><img alt="operator_define.png" src="../assets/images/search_operators/operator_define.png" /></p>
+<h4 id="filetype">filetype:<a class="headerlink" href="#filetype" title="Permanent link">&para;</a></h4>
+<p>Оператор <code>filetype:</code> в поисковых запросах представляет собой удобное средство для ограничения поисковых результатов файлами конкретного типа. Этот функциональный инструмент особенно полезен, когда требуется найти документы, файлы или ресурсы в определенном формате.</p>
+<div class="admonition tip">
+<p class="admonition-title">Интересно</p>
+<p><strong>Одним из ярких примеров эффективного использования данного оператора является поиск бесплатных книг.</strong></p>
+<p>В виртуальном пространстве можно обнаружить обширный ассортимент информации, причем многие книги доступны в формате PDF. Например, при вводе запроса <code>"Лабиринт отражения" filetype:pdf</code>, вероятность обнаружить полный вариант книги составляет около 90%.</p>
+</div>
+<p>Пример запроса <code>кот из Шрека filetype:gif</code> позволит найти анимированные картинки кота из мультфильма Шрек.</p>
+<p><img alt="operator_filetype.png" src="../assets/images/search_operators/operator_filetype.png" /></p>
+<h4 id="intext">intext:<a class="headerlink" href="#intext" title="Permanent link">&para;</a></h4>
+<p>Оператор <code>intext:</code> в поисковых запросах является эффективным средством для ограничения результатов поиска страницами, где встречается конкретный указанный текст. Этот оператор становится особенно ценным, когда необходимо найти страницы, содержащие определенные ключевые слова или фразы в текстовом содержании.</p>
+<p>Применение данного оператора позволяет более точно настраивать поиск и получать результаты, где указанный текст присутствует именно в содержании страницы, а не ограничивается заголовками или другими элементами.</p>
+<div class="admonition info">
+<p class="admonition-title">Обрати внимание</p>
+<p>Если требуется сделать запрос на несколько слов, следует использовать оператор <code>allintitle:</code> в котором разделение слов происходит через пробел.</p>
+</div>
+<p>Например <code>intext:гармонь</code> - запрос направлен на поиск страниц, содержащих фразу "гармонь".</p>
+<p><img alt="operator_intext.png" src="../assets/images/search_operators/operator_intext.png" /></p>
+<h4 id="intitle">intitle:<a class="headerlink" href="#intitle" title="Permanent link">&para;</a></h4>
+<p>Оператор <code>intitle:</code> схож с оператором <code>intext:</code>, только он ищет слово уже в заголовках.</p>
+<div class="admonition info">
+<p class="admonition-title">Обрати внимание</p>
+<p>Если требуется сделать запрос на несколько слов, следует использовать оператор <code>allintitle:</code> в котором разделение слов происходит через пробел.</p>
+</div>
+<p>Например <code>intitle:индекс</code> - запрос направлен на поиск страниц, содержащих фразу "индекс".</p>
+<p><img alt="operator_intitle.png" src="../assets/images/search_operators/operator_intitle.png" /></p>
+<h4 id="inurl">inurl:<a class="headerlink" href="#inurl" title="Permanent link">&para;</a></h4>
+<p>Оператор <code>inurl:</code> аналогичен предыдущим операторам и используется для поиска определенного слова в URL-адресе.</p>
+<div class="admonition info">
+<p class="admonition-title">Обрати внимание</p>
+<p>Если требуется сделать запрос на несколько слов, следует использовать оператор <code>allinurl:</code> в котором разделение слов происходит через пробел.</p>
+</div>
+<p>Например <code>inurl:стюардеса</code> - запрос направлен на поиск страниц, содержащих в URL адресе слово "стюардеса".</p>
+<div class="admonition tip">
+<p class="admonition-title">Интересно</p>
+<p><strong>В приведенном примере с использованием слова "стюардесса" специально была допущена ошибка с целью разнообразить результаты.</strong></p>
+<p>Это подчеркивает важность экспериментирования с запросами в поисковых системах: иногда изменение запроса, введение ошибки или переход на другой язык может привести к совершенно другим результатам. </p>
+</div>
+<p><img alt="operator_inurl.png" src="../assets/images/search_operators/operator_inurl.png" /></p>
+<h2 id="-" id:="stop_word_operators">Операторы или стоп-слова<a class="headerlink" href="#-" title="Permanent link">&para;</a></h2>
+<p>Для меня эти операторы не представляют собой роль обычных операторов; я выделил их как стоп-слова. Возможно, кому-то будет удобно использовать их как операторы. Но в каждом операторе я собираюсь подчеркнуть, как они активно применяются в повседневных поисковых запросах на русском языке, чего мы, возможно, не замечаем.</p>
+<h4 id="map">map:<a class="headerlink" href="#map" title="Permanent link">&para;</a></h4>
+<p>Оператор <code>map:</code> в Google предназначен для точного и эффективного поиска местоположений на картах Google Maps. Для использования оператора необходимо место и возможно дополнительные параметры.</p>
+<p>Ежедневно, при запросах, на русском языке мы его используем как <code>карты</code> или <code>карта</code>. Использование и эффект такой же. Мы указываем стоп-слово и пишем расположение, нам выдаются результаты локации на Google Maps.</p>
+<p>Например: <code>map:Москва улица Гагарина</code> , альтернатива : <code>карта Москва улица Гагарина</code></p>
+<p><img alt="operator_map.png" src="../assets/images/search_operators/operator_map.png" /></p>
+<h4 id="weather">weather:<a class="headerlink" href="#weather" title="Permanent link">&para;</a></h4>
+<p>Оператор <code>weather:</code> используется для получения прогноза погоды от доверенного источника. Для использования оператора необходимо указать оператор или стоп-слово, далее прописать местоположение.</p>
+<p>Например: <code>weather:Москва</code> , альтернатива: <code>погода Москва</code></p>
+<p><img alt="operator_weather.png" src="../assets/images/search_operators/operator_weather.png" /></p>
+<h4 id="movie">movie:<a class="headerlink" href="#movie" title="Permanent link">&para;</a></h4>
+<p>Оператор <code>movie:</code> помогает найти информацию о фильме, а также может показать расписание сеансов, если в данный момент недалеко от вас, показывают этот фильм.</p>
+<p>Например: <code>movie:Человек-муравей Квантомания</code> , альтернатива: <code>фильм Человек-муравей Квантомания</code></p>
+<p><img alt="operator_movie.png" src="../assets/images/search_operators/operator_movie.png" /></p>
+<h4 id="stocks">stocks:<a class="headerlink" href="#stocks" title="Permanent link">&para;</a></h4>
+<p>Оператор <code>stocks:</code> используется для получения интересующего курса валюты или акций, а также конвертация в заданную валюту.</p>
+<p>Например: <code>stocks:Евро</code> , альтернатива: <code>курс Евро</code></p>
+<div class="admonition info">
+<p class="admonition-title">Обрати внимание</p>
+<p><strong>Оператор <code>stocks:</code> работает не всегда.</strong></p>
+<p>Пока не удалось выяснить причины, по которым оператор не работает. Возможно он бесполезный. В данный момент, я не нашел способа его использования, только его альтернативу: <code>курс</code>.</p>
+<p>Также, следует заметить, что курс акций он перестал показывать, причины также неизвестны.</p>
+</div>
+<p><img alt="operator_stocks.png" src="../assets/images/search_operators/operator_stocks.png" /></p>
+<h4 id="in-to">in, to<a class="headerlink" href="#in-to" title="Permanent link">&para;</a></h4>
+<p><code>in</code> и <code>to</code> это уже настоящие стоп-слова. Они не используют структуру расширенных операторов, они больше похожи на основные. Данные стоп-слова служат для конвертации длин, массы, валют и т.п.</p>
+<p>Например: <code>100 см in мм</code> , альтернатива, которую используют чаще всего: <code>100 см в мм</code></p>
+<p><img alt="operators_in_to.png" src="../assets/images/search_operators/operators_in_to.png" /></p>
+<h4 id="_7" id:="currency_sign">Знак валюты<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h4>
+<p>Знак валюты в запросе также является стоп-словом. Он даёт понять поисковой системе в какой валюте следует находить результаты. Многие пишут, что данный оператор служит поиском товаров в указанной валюте. В моей практике, больших заслуг он не получил, он лишь заменяет длинные названия валюты и 99% это знак доллара. Воспринимайте его как обычный символ для запроса.</p>
+<p>Примером может стать: <code>100$ в рублях</code></p>
+<p><img alt="currency_sign.png" src="../assets/images/search_operators/currency_sign.png" /></p>
+<h2 id="_8" id:="specific_operators">Специфичные операторы<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<p>Специфичные операторы не представляют собой обыденные инструменты для среднестатистического человека. Они служат инструментами для различных специалистов. Знание этих операторов не является обязательным, и с высокой вероятностью они вам не пригодятся.</p>
+<h4 id="cache">cache:<a class="headerlink" href="#cache" title="Permanent link">&para;</a></h4>
+<p>Оператор <code>cache:</code>, отображает последнюю кэшированную версию веб-страницы если страница проиндексирована. </p>
+<p>Например: <code>cache:https://pikabu.ru/communities</code></p>
+<p><img alt="operator_cache.png" src="../assets/images/search_operators/operator_cache.png" /></p>
+<h4 id="inanchor">inanchor:<a class="headerlink" href="#inanchor" title="Permanent link">&para;</a></h4>
+<p>Оператор <code>inanchor:</code> в поиске Google используется для нахождения веб-страниц, содержащих в своих якорных текстах (ссылочных текстах) определенное слово или фразу. Якорный текст — это текст, который является ссылкой, и находится между открывающим и закрывающим тегами <code>&lt;a&gt;</code> в HTML.</p>
+<div class="admonition info">
+<p class="admonition-title">Обрати внимание</p>
+<p>Если требуется сделать запрос на несколько слов, следует использовать оператор <code>allinanchor:</code> в котором разделение слов происходит через пробел.</p>
+</div>
+<p>Пример использования оператора: <code>inanchor:технологии</code></p>
+<p><img alt="operator_inanchor.png" src="../assets/images/search_operators/operator_inanchor.png" /></p>
+<h2 id="_9" id:="useless_operators">Бесполезные операторы<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<p>Эта группа включает в себя те операторы, которые, за мой многолетний опыт использования поисковой системы, так и не оправдали своего применения. Также, сюда относятся операторы, которые, к сожалению, не функционируют.</p>
+<h4 id="and-or">AND, OR<a class="headerlink" href="#and-or" title="Permanent link">&para;</a></h4>
+<p>Оператор <code>AND</code> используется для указания, что оба термина должны присутствовать в результатах поиска. На практике он может показаться излишним, поскольку стандартный запрос без оператора <code>AND</code> также возвращает результаты, в которых оба термина встречаются.</p>
+<p>Оператор <code>OR</code> позволяет указать, что один из терминов должен присутствовать в результатах поиска. Однако, как и в случае с оператором <code>AND</code>, стандартный запрос без оператора <code>OR</code> также возвращает результаты, где хотя бы один из терминов встречается.</p>
+<div class="admonition info">
+<p class="admonition-title">Обрати внимание</p>
+<p><strong>Я пытался, для данного руководства, найти в них пользу.</strong></p>
+<p>Одним из способов сделать операторы <code>AND</code> и <code>OR</code> более полезными является их сочетание с группировкой через скобки.</p>
+<p>Например: <code>(исследование OR CSS) AND "новые технологии"</code> Этот запрос должен вернуть результаты, где присутствует либо "исследование" либо "CSS", и при этом обязательно должен быть также термин "новые технологии".</p>
+<p>Но на практике данный вариант очень не удобный, а также результаты совершенно непредсказуемые. Мне кажется лучшим вариантом будет отказаться от использования подобных операторов.</p>
+</div>
+<h4 id="loc">loc:<a class="headerlink" href="#loc" title="Permanent link">&para;</a></h4>
+<p>Оператор <code>loc:</code> , предназначенный для определения результатов поиска из заданного местоположения, оказался малопригодным в использовании. Лично для меня он кажется лишним элементом, который не улучшает, а даже усложняет наше взаимодействие с поиском.</p>
+<p>Рассмотрим пример: <code>Американские горки loc:Самара</code> - этот запрос выдаст результаты об американских горках в Самаре. Однако на практике мы можем обойтись без оператора <code>loc:</code> и написать простой запрос: <code>Американские горки Самара</code>, и результаты будут аналогичными.</p>
+<p>Даже тот факт, что с ним запросов куда меньше, может только затруднить выборку результатов. Если нам требуется найти расположение аттракциона, следует воспользоваться картами, а не локацией. В итоге, я не рекомендую его использовать.</p>
+<h4 id="blogurl">blogurl:<a class="headerlink" href="#blogurl" title="Permanent link">&para;</a></h4>
+<p>Этот оператор предназначен для выполнения поиска URL блога в заданном домене. Однако его функциональность не ясна. Я испытал затруднения в понимании его смысла.</p>
+<h4 id="aroundx">AROUND(X)<a class="headerlink" href="#aroundx" title="Permanent link">&para;</a></h4>
+<p>Поиск в близком контексте предполагает наличие двух слов или фраз на определенном расстоянии друг от друга в тексте.</p>
+<p>Пример использования: <code>samsung AROUND(3) новый</code>. В данном случае, слова <code>samsung</code> и <code>новый</code> должны встречаться не далее чем в трех словах друг от друга. Однако, на практике результаты этого оператора оказываются непредсказуемыми. В итоге, его использование не рекомендуется.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  К началу
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Нижний колонтитул" >
+        
+          
+          <a href="../google_search_basics/" class="md-footer__link md-footer__link--prev" aria-label="Назад: Основы поиска в Google">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Назад
+              </span>
+              <div class="md-ellipsis">
+                Основы поиска в Google
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../advanced_search_and_filtering/" class="md-footer__link md-footer__link--next" aria-label="Вперед: Расширенный поиск и фильтрация">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Вперед
+              </span>
+              <div class="md-ellipsis">
+                Расширенный поиск и фильтрация
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 <a href="https://github.com/morington" target="_blank" rel="noopener">Adam Morington</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://t.me/morington" target="_blank" rel="noopener" title="Adam Morington" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M248 8C111.033 8 0 119.033 0 256s111.033 248 248 248 248-111.033 248-248S384.967 8 248 8Zm114.952 168.66c-3.732 39.215-19.881 134.378-28.1 178.3-3.476 18.584-10.322 24.816-16.948 25.425-14.4 1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25 5.342-39.5 3.652-3.793 67.107-61.51 68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608 69.142-14.845 10.194-26.894 9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7 18.45-13.7 108.446-47.248 144.628-62.3c68.872-28.647 83.183-33.623 92.511-33.789 2.052-.034 6.639.474 9.61 2.885a10.452 10.452 0 0 1 3.53 6.716 43.765 43.765 0 0 1 .417 9.769Z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://github.com/morington" target="_blank" rel="noopener" title="GitHub - morington" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>
